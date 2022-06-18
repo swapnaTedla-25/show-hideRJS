@@ -1,0 +1,55 @@
+.app-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: 'roboto';
+  margin-bottom: 20px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  border-radius: 5px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fddddb;
+  color: #dd1264;
+  border-style: none;
+}
+
+.showfNamecontainer {
+  background-color: #fddddb;
+  color: #000000;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.showLNamecontainer {
+  background-color: #fddddb;
+  color: #000000;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+}
